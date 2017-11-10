@@ -19,23 +19,24 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         UNUserNotificationCenter.current().delegate = self
+        //First things first: Authorize spotify
+         //Authorize our app for the Spotify account if there is no token
+        //This opens a browser window from which the user can authenticate into his account
+        spotifyManager.authorize()
         
         // First thing: scrape records year by year
         //self.scrapeYearByYearRecords()
         
-        // Authorize our app for the Spotify account if there is no token
-        // This opens a browser window from which the user can authenticate into his account
-        spotifyManager.authorize()
-     
-        //second thing: insert local notifications one for differente year
-//        for _ in 1...64 {
-//            self.scheduleLocal()
-//        }
+        //Last but not least thing: insert local notifications one for differente year
+        for _ in 1...64 {
+            self.scheduleLocal()
+        }
     }
     
 
     func scheduleLocal() {
         
+        //So far local database is composed with music from 1990 to 2017
         let actualMonthAndrandomYear = (month: DateFormatter().stringMonthFormatter().string(from: Date()), randomYear: Array(1990...2017).randomItem())
         
         guard let album = self.dataProvider.getAlbums(withYear: actualMonthAndrandomYear.month, andMonth: String(describing: actualMonthAndrandomYear.randomYear!)) else {
@@ -63,7 +64,7 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         content.setValue("YES", forKeyPath: "shouldAlwaysAlertWhileAppIsForeground")
         content.userInfo = ["album": album.albumName!, "artist":album.artist!]
         let request = UNNotificationRequest(identifier: "textNotification", content: content, trigger: trigger)
-
+        
         UNUserNotificationCenter.current().add(request) {(error) in
             if let error = error {
                 print("Yikes! We had an error: \(error.localizedDescription)")

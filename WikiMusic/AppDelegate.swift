@@ -50,8 +50,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        print("GO IN HERE")
+        
         completionHandler(.alert)
+        
+        self.searchAlbumInSPotify(withAlbumName: notification.request.content.userInfo["album"] as! String, andArtistName: notification.request.content.userInfo["artist"] as! String)
     }
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void){
@@ -79,7 +81,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    //MARK: --Private Spotifykit implementation
+    private func searchAlbumInSPotify(withAlbumName albumName: String, andArtistName artistName: String) {
+        
+        spotifyManager.find(SpotifyAlbum.self, albumName) { tracks in
+            
+            for track in tracks where track.artist.name == artistName {
+                
+                print("URI:    \(track.uri), "         +
+                    "Name:   \(track.name), "        +
+                    "Artist: \(track.artist.name)")
+                
+                if self.isSpotifyInstalled() {
+                    UIApplication.shared.open(NSURL(string:"spotify:album:\(track.uri)")! as URL)
+                    
+                } else {
+                    UIApplication.shared.open(NSURL(string:"https://open.spotify.com/album/\(track.uri)")! as URL)
+                }
+            }
+        }
+    }
+    
+    func isSpotifyInstalled() -> Bool {
+        return UIApplication.shared.canOpenURL(NSURL(string:"spotify:")! as URL)
+    }
 
 }
 
