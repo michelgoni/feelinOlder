@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "649FDDBF53DB87BD3605C13467F0EDC4"
+               BlueprintIdentifier = "7CD3CF5CC5DEB279ACC181CD01290AE2"
                BuildableName = "Pods_WikiMusic.framework"
                BlueprintName = "Pods-WikiMusic"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "649FDDBF53DB87BD3605C13467F0EDC4"
+            BlueprintIdentifier = "7CD3CF5CC5DEB279ACC181CD01290AE2"
             BuildableName = "Pods_WikiMusic.framework"
             BlueprintName = "Pods-WikiMusic"
             ReferencedContainer = "container:Pods.xcodeproj">

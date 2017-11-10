@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4D10E4FF5A483B852B47CCA0B994E340'
-               BlueprintName = 'Kanna'
+               BlueprintIdentifier = 'AA041B83E56244994F42033E3E13AB07'
+               BlueprintName = 'SpotifyKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Kanna.framework'>
+               BuildableName = 'SpotifyKit.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

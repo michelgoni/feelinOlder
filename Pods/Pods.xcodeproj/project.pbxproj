@@ -7,111 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08700CBB713B443AFA394EFD6B74E402 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F807B65CF6670D4FCC76D7012018880 /* libxmlHTMLNode.swift */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AA59222B3A18DC0D05B8139BCC09BC /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 577D4E7359A89E504781F4F903083134 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		322F32F75AC8A04064F70A089800AF88 /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AA15656507863DFA2FF8F1BBCFF251 /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBDE46259C703162AC78F9A08ABFC2 /* TaskDelegate.swift */; };
-		3DB400D8B8AADDF43E1439E3441E814B /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1306A3629B1F262F52F0F4A430FC643 /* Kanna-dummy.m */; };
-		436871564BF1C99AA86206B69CDB40DD /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC196C24949FCE33342192F556F3B5B /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE3C7CF2F56B10E8F88367878206CC /* Request.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E058A989AF4374C823C391BFE08F0 /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC706A3E09FC10B8F931FE0EFFF1B7 /* ServerTrustPolicy.swift */; };
-		634F01C0D06986FD15F647234ADA7CBC /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA4A9EFFC7A6A2ECF312F4BA26D20A0 /* Kanna.swift */; };
+		02BD3E61C170D17A00BBECF7D05D2E29 /* SpotifyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F5EF8AA78C8AA667AC7E31115CB64 /* SpotifyKit.swift */; };
+		08700CBB713B443AFA394EFD6B74E402 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8C48488BC5A4A0F8B751E43DAEFD0 /* libxmlHTMLNode.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B8D45B17254A81802DE3D8FAE7E6BE /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E4E014627D529ED205CB1FCCD134D4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322F32F75AC8A04064F70A089800AF88 /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A474DAB55C7A4D81CFF2B69120D3CE99 /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33838E5D03432FF748A310E5C86AC23 /* TaskDelegate.swift */; };
+		38BF46175ECA3454B78516C5FA1B096B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3DB400D8B8AADDF43E1439E3441E814B /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA771ED2AA708066D8ABC1520FCBC1 /* Kanna-dummy.m */; };
+		436871564BF1C99AA86206B69CDB40DD /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 02631CEC2AB636ECEA163D59E853EB6C /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BA3EB06CAE194C05DEF43C7E5EC034 /* WebCommunications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376E582CFCCE912B08D62271830998D /* WebCommunications.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1A42E590F4BF47884BD2D5EEBF40A /* Request.swift */; };
+		5F248638745C17C98B88166E6E9B96D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4DE2D67F301E2778CE0C92B211A71 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11624F3DEAAD901935444BE4E27F2F91 /* ServerTrustPolicy.swift */; };
+		634F01C0D06986FD15F647234ADA7CBC /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBC626C7B6B8BCDA258B46A5C9905C /* Kanna.swift */; };
+		653A94659062FEAB21DAA616A459F412 /* SpotifyItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFC68CCA40789F68D1025C05460EA /* SpotifyItems.swift */; };
 		6ADDB372030582054CAE4F5CF6431613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7326FB9C6EB50B22F531DA21B958CE6E /* Pods-WikiMusic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6DEDB7C30EDF9306318BBB04A90172 /* Pods-WikiMusic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		781A4D12CC4A83EA4705C6029254B012 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702DE583A7F4AB7A060F5824A68C2C4 /* libxmlHTMLDocument.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAECA21F6C356BB5DD4F244BE0A8F9C /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3E50880D16766F4D2A05F5E5FBC91 /* Result.swift */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A40D4C3D723D2341EC81524E9B37F /* AFError.swift */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A77673938523FCB817049AE1CCC479A /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D0001D3D7CE2D64227BCCC791ACDFC /* Alamofire-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6496471774E09439235E3AB6DA69B /* SessionManager.swift */; };
-		AF863C36D259D89189A0BDF54912C76E /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B67E997349397B3370D1927D68CC28 /* CSS.swift */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD820B35ECEA621AE8D5CC80553909 /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EB857E6B9121A453E288AA82C54FF /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4568F7DD1BC8451602B5170CC6500A /* ParameterEncoding.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D2EB22F67AB7EB07D6E84001AC6E2 /* Response.swift */; };
-		E720793460EF23954F2CEABB513AE132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3CD573C69A890A754FA8CF20DA9CBF /* Notifications.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861D5462786788D9C420E21F46DB703 /* ResponseSerialization.swift */; };
-		F7840A9CF56B9F6518107FC4723CDB4B /* Pods-WikiMusic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41BD0D83A0FDA830B5F87D808349856 /* Pods-WikiMusic-dummy.m */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358055269E23B311F09FF8BFB41A8919 /* Alamofire.swift */; };
-		FD87F8764674EFAAF3AABCA2552E5127 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89740DFDC1E361D074E9EB234C9E7B46 /* libxmlParserOption.swift */; };
+		781A4D12CC4A83EA4705C6029254B012 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8797F21E1274E1D4AC1893ADF3BD8 /* libxmlHTMLDocument.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BFF7779C646B6E42895522B2E03B90 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325BE1C83500D6B1E606FD7433D1B26 /* Result.swift */; };
+		8646615E568BDC1B2BC557D886120F55 /* Pods-WikiMusic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6DEDB7C30EDF9306318BBB04A90172 /* Pods-WikiMusic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E889C9B534DC0070936F42B9DB1AF /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20893C2C65B57DE426D56197F56FEE /* NetworkReachabilityManager.swift */; };
+		A2ECF35ECEF79F7002B231DE1B7CF05A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321296D9BE2E1BF3C51C77B6693DC511 /* Keychain.swift */; };
+		A438736722DC9798A373449CA4D27BEA /* SpotifyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E82369D973723A888966D4D29739A22 /* SpotifyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BF42E22263BD8DDE807312C31F73EC /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CC2F154093CEB47A2D75901F7D4B7 /* SessionManager.swift */; };
+		AF863C36D259D89189A0BDF54912C76E /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CDA979878C2EEC9B5DF2CD113392B /* CSS.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B52CEE9756A671E512C7C2CD20E4377 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244825B93E708B3A69F831135B2FDC5 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630B2E55EC78D28811B78D0205F8D24 /* ParameterEncoding.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F3AD431CBC637B1662250BFA4F9FB2 /* Response.swift */; };
+		CF4CE251910B7FCAEB1E0967A9E66AE2 /* SpotifyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BC49FE3C55EADD4E3F55B4BEC547C3 /* SpotifyKit-dummy.m */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76E02654C6380F59E87D4D916B6A05 /* Notifications.swift */; };
+		F1F3F8D5123955A55EEB77A786AF2559 /* Pods-WikiMusic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41BD0D83A0FDA830B5F87D808349856 /* Pods-WikiMusic-dummy.m */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCE3A5904E8B3F8F04742A2960A8E7 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D480EDB37BB67BCBFCD21764F1FC /* Alamofire.swift */; };
+		FD87F8764674EFAAF3AABCA2552E5127 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5EAA9D3B4D912FAAA8E369511E58 /* libxmlParserOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83BD4272ED5B0E2C6345D63DA895C7AB /* PBXContainerItemProxy */ = {
+		275D520F6BCD12A1BEEEDEA140D86D39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D10E4FF5A483B852B47CCA0B994E340;
-			remoteInfo = Kanna;
+			remoteGlobalIDString = AA041B83E56244994F42033E3E13AB07;
+			remoteInfo = SpotifyKit;
 		};
-		CBCB9A517A1FB4F5A09A873513C37E35 /* PBXContainerItemProxy */ = {
+		7DD2322357325E2507909AD82A9042D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
+		E04F53102D86F141F35FE9CAE437E6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D10E4FF5A483B852B47CCA0B994E340;
+			remoteInfo = Kanna;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030A40D4C3D723D2341EC81524E9B37F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		08CBDE46259C703162AC78F9A08ABFC2 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		0F3CD573C69A890A754FA8CF20DA9CBF /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		02631CEC2AB636ECEA163D59E853EB6C /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
+		055404FF889B860448F846A2DAB9F723 /* SpotifyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SpotifyKit.modulemap; sourceTree = "<group>"; };
+		06EB5EAA9D3B4D912FAAA8E369511E58 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
+		08DEFC68CCA40789F68D1025C05460EA /* SpotifyItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyItems.swift; path = Sources/SpotifyItems.swift; sourceTree = "<group>"; };
+		0BD8797F21E1274E1D4AC1893ADF3BD8 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
 		0F6DEDB7C30EDF9306318BBB04A90172 /* Pods-WikiMusic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WikiMusic-umbrella.h"; sourceTree = "<group>"; };
+		11624F3DEAAD901935444BE4E27F2F91 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		12B89494FF5350533A7F4525515FBA1E /* Pods-WikiMusic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WikiMusic-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1DAC133E586704BD778EECAA5171B4EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143F5EF8AA78C8AA667AC7E31115CB64 /* SpotifyKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyKit.swift; path = Sources/SpotifyKit.swift; sourceTree = "<group>"; };
+		1630B2E55EC78D28811B78D0205F8D24 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		16EBC626C7B6B8BCDA258B46A5C9905C /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
+		1AD50339AB59BDBCC58184D7A287639A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		221900E5458795F5A18912A74ECA534C /* Pods-WikiMusic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WikiMusic-acknowledgements.plist"; sourceTree = "<group>"; };
-		2AA4A9EFFC7A6A2ECF312F4BA26D20A0 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
-		2F807B65CF6670D4FCC76D7012018880 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
-		30EE3C7CF2F56B10E8F88367878206CC /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		23BC49FE3C55EADD4E3F55B4BEC547C3 /* SpotifyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpotifyKit-dummy.m"; sourceTree = "<group>"; };
+		2AC8C48488BC5A4A0F8B751E43DAEFD0 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		2E82369D973723A888966D4D29739A22 /* SpotifyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifyKit-umbrella.h"; sourceTree = "<group>"; };
 		3103D532590C8E4AF9979CA0EB8BE8EA /* Pods-WikiMusic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WikiMusic.modulemap"; sourceTree = "<group>"; };
-		358055269E23B311F09FF8BFB41A8919 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		38972EDE0652639850069FC2A7876887 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		3E3E058A989AF4374C823C391BFE08F0 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		41AA15656507863DFA2FF8F1BBCFF251 /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
-		47AC706A3E09FC10B8F931FE0EFFF1B7 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		4C6EB857E6B9121A453E288AA82C54FF /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		4F6642FC7285B564E52FC6B3C82A023B /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
-		53B67E997349397B3370D1927D68CC28 /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
-		577D4E7359A89E504781F4F903083134 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		58B6496471774E09439235E3AB6DA69B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		321296D9BE2E1BF3C51C77B6693DC511 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
+		34BF42E22263BD8DDE807312C31F73EC /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		374699A5EE095CD8EA132761737223D2 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		3975C43736F8EEC9345142A9AA5B481C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C76E02654C6380F59E87D4D916B6A05 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		3FAE08C96940AD628FECD2B03E85F3AC /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kanna.modulemap; sourceTree = "<group>"; };
+		3FFCE3A5904E8B3F8F04742A2960A8E7 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		450E889C9B534DC0070936F42B9DB1AF /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		4B5808E3287CAB7A164DE8B722E15D72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4A6137427D457C9E672E5AC57940ED /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		4C88D480EDB37BB67BCBFCD21764F1FC /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		4EF390CA69D1B1E8BCE3C6316C697897 /* SpotifyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifyKit-prefix.pch"; sourceTree = "<group>"; };
+		5325BE1C83500D6B1E606FD7433D1B26 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		58BFF7779C646B6E42895522B2E03B90 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		613B8AC8DCB6B742908403C35BF942A6 /* Pods-WikiMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WikiMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6605B213C12CDB06209DF36ADCB4B85C /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
-		6702DE583A7F4AB7A060F5824A68C2C4 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
-		7543CA77036230268DF4C2B7FA4F7AAA /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		7A3D2EB22F67AB7EB07D6E84001AC6E2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		81A3385548F4BF1AE1B6BB5F8B26BAAA /* Pods_WikiMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WikiMusic.framework; path = "Pods-WikiMusic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B8AA14757B87C9B9E4B2DF6D6606D /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F3AD431CBC637B1662250BFA4F9FB2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		6B52CEE9756A671E512C7C2CD20E4377 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		6BD4DE2D67F301E2778CE0C92B211A71 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		84CA771ED2AA708066D8ABC1520FCBC1 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
 		8765BA735715F7358ECCFFB67AE31D86 /* Pods-WikiMusic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WikiMusic-resources.sh"; sourceTree = "<group>"; };
-		88F8598659EA390824AE530691150E57 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89740DFDC1E361D074E9EB234C9E7B46 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
-		8A77673938523FCB817049AE1CCC479A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		90A3E50880D16766F4D2A05F5E5FBC91 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		936CEF52055ACEBD05E9653DAEC8927B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		8767E8489DC14D38C38B8FEDF2719A8A /* Pods_WikiMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WikiMusic.framework; path = "Pods-WikiMusic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CABA3520727857B38E334545D1E3DC /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
+		8D20893C2C65B57DE426D56197F56FEE /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97AA59222B3A18DC0D05B8139BCC09BC /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		97D0001D3D7CE2D64227BCCC791ACDFC /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		9CAECA21F6C356BB5DD4F244BE0A8F9C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		A474DAB55C7A4D81CFF2B69120D3CE99 /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
+		A5C17EDD094531128A715EDA56423231 /* SpotifyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpotifyKit.framework; path = SpotifyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA00E9D0F39540C12549559C2F5D8000 /* Pods-WikiMusic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WikiMusic-frameworks.sh"; sourceTree = "<group>"; };
-		AA4568F7DD1BC8451602B5170CC6500A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		ACCD820B35ECEA621AE8D5CC80553909 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		B4E8381BBCBE19611223BA647A94451A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7A776C9AF033C863996CDAAED9FC998 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kanna.modulemap; sourceTree = "<group>"; };
-		C1306A3629B1F262F52F0F4A430FC643 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
+		AC3CC2F154093CEB47A2D75901F7D4B7 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		BF2CDA979878C2EEC9B5DF2CD113392B /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
 		C2A7A8ABDE1E04699E40B1EF411BCB36 /* Pods-WikiMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WikiMusic.release.xcconfig"; sourceTree = "<group>"; };
 		C41BD0D83A0FDA830B5F87D808349856 /* Pods-WikiMusic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WikiMusic-dummy.m"; sourceTree = "<group>"; };
-		C861D5462786788D9C420E21F46DB703 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		CBC196C24949FCE33342192F556F3B5B /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
-		D20156BC9C1D05E5D7621197F383228D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56A4738263EDFCF6A0D210CD8A58B47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B8D45B17254A81802DE3D8FAE7E6BE /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		D244825B93E708B3A69F831135B2FDC5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D376E582CFCCE912B08D62271830998D /* WebCommunications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebCommunications.swift; path = Sources/WebCommunications.swift; sourceTree = "<group>"; };
+		D47A9A4C99FB9F9C51309A3CD4D5A09D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E4E014627D529ED205CB1FCCD134D4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		DB39F74C2B2D699353532E9FA1AE1256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC357E77061F71D921A19ABC3B533DA0 /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		EEAAEE2A57EA25C92F2D74DD0477B1E6 /* SpotifyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotifyKit.xcconfig; sourceTree = "<group>"; };
+		EFC1A42E590F4BF47884BD2D5EEBF40A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		F33838E5D03432FF748A310E5C86AC23 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		56B1A6BCB21B527A6C6CC4757F59BDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BF46175ECA3454B78516C5FA1B096B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,53 +161,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DED8A90553FD2D829FCB2DA5D125E941 /* Frameworks */ = {
+		FCE175C24C2F1AAA1B55D58F17DD1811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E720793460EF23954F2CEABB513AE132 /* Foundation.framework in Frameworks */,
+				5F248638745C17C98B88166E6E9B96D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D4F6D23091131BCCD8F2E7A4CFEBA1F /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				030A40D4C3D723D2341EC81524E9B37F /* AFError.swift */,
-				358055269E23B311F09FF8BFB41A8919 /* Alamofire.swift */,
-				3E3E058A989AF4374C823C391BFE08F0 /* DispatchQueue+Alamofire.swift */,
-				ACCD820B35ECEA621AE8D5CC80553909 /* MultipartFormData.swift */,
-				8A77673938523FCB817049AE1CCC479A /* NetworkReachabilityManager.swift */,
-				0F3CD573C69A890A754FA8CF20DA9CBF /* Notifications.swift */,
-				AA4568F7DD1BC8451602B5170CC6500A /* ParameterEncoding.swift */,
-				30EE3C7CF2F56B10E8F88367878206CC /* Request.swift */,
-				7A3D2EB22F67AB7EB07D6E84001AC6E2 /* Response.swift */,
-				C861D5462786788D9C420E21F46DB703 /* ResponseSerialization.swift */,
-				90A3E50880D16766F4D2A05F5E5FBC91 /* Result.swift */,
-				47AC706A3E09FC10B8F931FE0EFFF1B7 /* ServerTrustPolicy.swift */,
-				9CAECA21F6C356BB5DD4F244BE0A8F9C /* SessionDelegate.swift */,
-				58B6496471774E09439235E3AB6DA69B /* SessionManager.swift */,
-				08CBDE46259C703162AC78F9A08ABFC2 /* TaskDelegate.swift */,
-				97AA59222B3A18DC0D05B8139BCC09BC /* Timeline.swift */,
-				4C6EB857E6B9121A453E288AA82C54FF /* Validation.swift */,
-				17BF8FB3A0007BD462F87B2BA1F6FB65 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		0EB4C1D13D9A5DB23FA63470A2C7A845 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D20156BC9C1D05E5D7621197F383228D /* Alamofire.framework */,
-				88F8598659EA390824AE530691150E57 /* Kanna.framework */,
-				81A3385548F4BF1AE1B6BB5F8B26BAAA /* Pods_WikiMusic.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		10FCAFC009568C3B097A2CDD13EBC7C3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,27 +180,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		17BF8FB3A0007BD462F87B2BA1F6FB65 /* Support Files */ = {
+		39C3AD01AF777C089A8815DA0DFAF5E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				38972EDE0652639850069FC2A7876887 /* Alamofire.modulemap */,
-				936CEF52055ACEBD05E9653DAEC8927B /* Alamofire.xcconfig */,
-				97D0001D3D7CE2D64227BCCC791ACDFC /* Alamofire-dummy.m */,
-				7543CA77036230268DF4C2B7FA4F7AAA /* Alamofire-prefix.pch */,
-				577D4E7359A89E504781F4F903083134 /* Alamofire-umbrella.h */,
-				1DAC133E586704BD778EECAA5171B4EB /* Info.plist */,
+				C56A4738263EDFCF6A0D210CD8A58B47 /* Info.plist */,
+				055404FF889B860448F846A2DAB9F723 /* SpotifyKit.modulemap */,
+				EEAAEE2A57EA25C92F2D74DD0477B1E6 /* SpotifyKit.xcconfig */,
+				23BC49FE3C55EADD4E3F55B4BEC547C3 /* SpotifyKit-dummy.m */,
+				4EF390CA69D1B1E8BCE3C6316C697897 /* SpotifyKit-prefix.pch */,
+				2E82369D973723A888966D4D29739A22 /* SpotifyKit-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			path = "../Target Support Files/SpotifyKit";
 			sourceTree = "<group>";
 		};
-		7B6B8BE16F20EFCAAEB4828F47595D8A /* Pods */ = {
+		407E69190E3BDED1AC3EA8B5F8470D33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D4F6D23091131BCCD8F2E7A4CFEBA1F /* Alamofire */,
-				F474EFBCEF02D636DFB898C6326E63B5 /* Kanna */,
+				D47A9A4C99FB9F9C51309A3CD4D5A09D /* Alamofire.framework */,
+				665B8AA14757B87C9B9E4B2DF6D6606D /* Kanna.framework */,
+				8767E8489DC14D38C38B8FEDF2719A8A /* Pods_WikiMusic.framework */,
+				A5C17EDD094531128A715EDA56423231 /* SpotifyKit.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -211,8 +210,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7B6B8BE16F20EFCAAEB4828F47595D8A /* Pods */,
-				0EB4C1D13D9A5DB23FA63470A2C7A845 /* Products */,
+				C4A83DA361809AC95B0D0814BA84A101 /* Pods */,
+				407E69190E3BDED1AC3EA8B5F8470D33 /* Products */,
 				10FCAFC009568C3B097A2CDD13EBC7C3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -235,18 +234,18 @@
 			path = "Target Support Files/Pods-WikiMusic";
 			sourceTree = "<group>";
 		};
-		96229054F15E5AFFDB5F8F0EADD83A1D /* Support Files */ = {
+		AAF532D27D1AEF50BB1A9FD40634230D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B4E8381BBCBE19611223BA647A94451A /* Info.plist */,
-				B7A776C9AF033C863996CDAAED9FC998 /* Kanna.modulemap */,
-				6605B213C12CDB06209DF36ADCB4B85C /* Kanna.xcconfig */,
-				C1306A3629B1F262F52F0F4A430FC643 /* Kanna-dummy.m */,
-				4F6642FC7285B564E52FC6B3C82A023B /* Kanna-prefix.pch */,
-				41AA15656507863DFA2FF8F1BBCFF251 /* Kanna-umbrella.h */,
+				374699A5EE095CD8EA132761737223D2 /* Alamofire.modulemap */,
+				4C4A6137427D457C9E672E5AC57940ED /* Alamofire.xcconfig */,
+				34BF42E22263BD8DDE807312C31F73EC /* Alamofire-dummy.m */,
+				1AD50339AB59BDBCC58184D7A287639A /* Alamofire-prefix.pch */,
+				D5E4E014627D529ED205CB1FCCD134D4 /* Alamofire-umbrella.h */,
+				3975C43736F8EEC9345142A9AA5B481C /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Kanna";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -257,6 +256,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C4A83DA361809AC95B0D0814BA84A101 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED06FF43A1348E1F8D7B64540D13C030 /* Alamofire */,
+				EB482ED47DBBADAD46C47DFA453CE0B6 /* Kanna */,
+				CA182AE24E91FA6F53E7994B6E15D9D4 /* SpotifyKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA182AE24E91FA6F53E7994B6E15D9D4 /* SpotifyKit */ = {
+			isa = PBXGroup;
+			children = (
+				321296D9BE2E1BF3C51C77B6693DC511 /* Keychain.swift */,
+				08DEFC68CCA40789F68D1025C05460EA /* SpotifyItems.swift */,
+				143F5EF8AA78C8AA667AC7E31115CB64 /* SpotifyKit.swift */,
+				D376E582CFCCE912B08D62271830998D /* WebCommunications.swift */,
+				39C3AD01AF777C089A8815DA0DFAF5E6 /* Support Files */,
+			);
+			name = SpotifyKit;
+			path = SpotifyKit;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,24 +287,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F474EFBCEF02D636DFB898C6326E63B5 /* Kanna */ = {
+		DADB6F05FC10BACB033E6F988BA989B9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				53B67E997349397B3370D1927D68CC28 /* CSS.swift */,
-				CBC196C24949FCE33342192F556F3B5B /* Kanna.h */,
-				2AA4A9EFFC7A6A2ECF312F4BA26D20A0 /* Kanna.swift */,
-				6702DE583A7F4AB7A060F5824A68C2C4 /* libxmlHTMLDocument.swift */,
-				2F807B65CF6670D4FCC76D7012018880 /* libxmlHTMLNode.swift */,
-				89740DFDC1E361D074E9EB234C9E7B46 /* libxmlParserOption.swift */,
-				96229054F15E5AFFDB5F8F0EADD83A1D /* Support Files */,
+				4B5808E3287CAB7A164DE8B722E15D72 /* Info.plist */,
+				3FAE08C96940AD628FECD2B03E85F3AC /* Kanna.modulemap */,
+				DC357E77061F71D921A19ABC3B533DA0 /* Kanna.xcconfig */,
+				84CA771ED2AA708066D8ABC1520FCBC1 /* Kanna-dummy.m */,
+				87CABA3520727857B38E334545D1E3DC /* Kanna-prefix.pch */,
+				A474DAB55C7A4D81CFF2B69120D3CE99 /* Kanna-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kanna";
+			sourceTree = "<group>";
+		};
+		EB482ED47DBBADAD46C47DFA453CE0B6 /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				BF2CDA979878C2EEC9B5DF2CD113392B /* CSS.swift */,
+				02631CEC2AB636ECEA163D59E853EB6C /* Kanna.h */,
+				16EBC626C7B6B8BCDA258B46A5C9905C /* Kanna.swift */,
+				0BD8797F21E1274E1D4AC1893ADF3BD8 /* libxmlHTMLDocument.swift */,
+				2AC8C48488BC5A4A0F8B751E43DAEFD0 /* libxmlHTMLNode.swift */,
+				06EB5EAA9D3B4D912FAAA8E369511E58 /* libxmlParserOption.swift */,
+				DADB6F05FC10BACB033E6F988BA989B9 /* Support Files */,
 			);
 			name = Kanna;
 			path = Kanna;
 			sourceTree = "<group>";
 		};
+		ED06FF43A1348E1F8D7B64540D13C030 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				450E889C9B534DC0070936F42B9DB1AF /* AFError.swift */,
+				4C88D480EDB37BB67BCBFCD21764F1FC /* Alamofire.swift */,
+				6BD4DE2D67F301E2778CE0C92B211A71 /* DispatchQueue+Alamofire.swift */,
+				6B52CEE9756A671E512C7C2CD20E4377 /* MultipartFormData.swift */,
+				8D20893C2C65B57DE426D56197F56FEE /* NetworkReachabilityManager.swift */,
+				3C76E02654C6380F59E87D4D916B6A05 /* Notifications.swift */,
+				1630B2E55EC78D28811B78D0205F8D24 /* ParameterEncoding.swift */,
+				EFC1A42E590F4BF47884BD2D5EEBF40A /* Request.swift */,
+				69F3AD431CBC637B1662250BFA4F9FB2 /* Response.swift */,
+				3FFCE3A5904E8B3F8F04742A2960A8E7 /* ResponseSerialization.swift */,
+				5325BE1C83500D6B1E606FD7433D1B26 /* Result.swift */,
+				11624F3DEAAD901935444BE4E27F2F91 /* ServerTrustPolicy.swift */,
+				58BFF7779C646B6E42895522B2E03B90 /* SessionDelegate.swift */,
+				AC3CC2F154093CEB47A2D75901F7D4B7 /* SessionManager.swift */,
+				F33838E5D03432FF748A310E5C86AC23 /* TaskDelegate.swift */,
+				C5B8D45B17254A81802DE3D8FAE7E6BE /* Timeline.swift */,
+				D244825B93E708B3A69F831135B2FDC5 /* Validation.swift */,
+				AAF532D27D1AEF50BB1A9FD40634230D /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4AE41ABBD62DA727F91DE462AEE6B4F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A438736722DC9798A373449CA4D27BEA /* SpotifyKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3CA17BFDDB0A81444254ACD04D49309 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,11 +370,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7B514CE02B41B175330790F3B80D167 /* Headers */ = {
+		D8732914325ED659DAA10920873AE0C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7326FB9C6EB50B22F531DA21B958CE6E /* Pods-WikiMusic-umbrella.h in Headers */,
+				8646615E568BDC1B2BC557D886120F55 /* Pods-WikiMusic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,26 +395,27 @@
 			);
 			name = Kanna;
 			productName = Kanna;
-			productReference = 88F8598659EA390824AE530691150E57 /* Kanna.framework */;
+			productReference = 665B8AA14757B87C9B9E4B2DF6D6606D /* Kanna.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		649FDDBF53DB87BD3605C13467F0EDC4 /* Pods-WikiMusic */ = {
+		7CD3CF5CC5DEB279ACC181CD01290AE2 /* Pods-WikiMusic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6C5648FB44B939BB44C53BB15D39E4A /* Build configuration list for PBXNativeTarget "Pods-WikiMusic" */;
+			buildConfigurationList = 91A96B2E912F4F42B31BB7D77B490408 /* Build configuration list for PBXNativeTarget "Pods-WikiMusic" */;
 			buildPhases = (
-				2EBD74C887DEADC706CFC447E2B64E5C /* Sources */,
-				DED8A90553FD2D829FCB2DA5D125E941 /* Frameworks */,
-				B7B514CE02B41B175330790F3B80D167 /* Headers */,
+				1852EDD520195465C9E9BF62B0956C29 /* Sources */,
+				FCE175C24C2F1AAA1B55D58F17DD1811 /* Frameworks */,
+				D8732914325ED659DAA10920873AE0C8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BAD421F346E5FBFA6466A8C7A33EF711 /* PBXTargetDependency */,
-				7996BD3F3AE916B0213815AA9A995B1E /* PBXTargetDependency */,
+				30FE8352B83734D5F04C7DF1E29282C6 /* PBXTargetDependency */,
+				C40B9729366C077B85607CAE9D67A51F /* PBXTargetDependency */,
+				4D7F8F6E3FABBD418B690DBC62DBB9AE /* PBXTargetDependency */,
 			);
 			name = "Pods-WikiMusic";
 			productName = "Pods-WikiMusic";
-			productReference = 81A3385548F4BF1AE1B6BB5F8B26BAAA /* Pods_WikiMusic.framework */;
+			productReference = 8767E8489DC14D38C38B8FEDF2719A8A /* Pods_WikiMusic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -361,7 +432,24 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = D20156BC9C1D05E5D7621197F383228D /* Alamofire.framework */;
+			productReference = D47A9A4C99FB9F9C51309A3CD4D5A09D /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA041B83E56244994F42033E3E13AB07 /* SpotifyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2580886F1C6FC7C8959E4EE8E78215 /* Build configuration list for PBXNativeTarget "SpotifyKit" */;
+			buildPhases = (
+				9F5DA8730D316C13BF01F04CCAE84681 /* Sources */,
+				56B1A6BCB21B527A6C6CC4757F59BDD4 /* Frameworks */,
+				4AE41ABBD62DA727F91DE462AEE6B4F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyKit;
+			productName = SpotifyKit;
+			productReference = A5C17EDD094531128A715EDA56423231 /* SpotifyKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -381,18 +469,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0EB4C1D13D9A5DB23FA63470A2C7A845 /* Products */;
+			productRefGroup = 407E69190E3BDED1AC3EA8B5F8470D33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */,
-				649FDDBF53DB87BD3605C13467F0EDC4 /* Pods-WikiMusic */,
+				7CD3CF5CC5DEB279ACC181CD01290AE2 /* Pods-WikiMusic */,
+				AA041B83E56244994F42033E3E13AB07 /* SpotifyKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1852EDD520195465C9E9BF62B0956C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F3F8D5123955A55EEB77A786AF2559 /* Pods-WikiMusic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		252B13ABC5AE0EA65897098097C1703E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,14 +500,6 @@
 				781A4D12CC4A83EA4705C6029254B012 /* libxmlHTMLDocument.swift in Sources */,
 				08700CBB713B443AFA394EFD6B74E402 /* libxmlHTMLNode.swift in Sources */,
 				FD87F8764674EFAAF3AABCA2552E5127 /* libxmlParserOption.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EBD74C887DEADC706CFC447E2B64E5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7840A9CF56B9F6518107FC4723CDB4B /* Pods-WikiMusic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,92 +528,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F5DA8730D316C13BF01F04CCAE84681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ECF35ECEF79F7002B231DE1B7CF05A /* Keychain.swift in Sources */,
+				653A94659062FEAB21DAA616A459F412 /* SpotifyItems.swift in Sources */,
+				CF4CE251910B7FCAEB1E0967A9E66AE2 /* SpotifyKit-dummy.m in Sources */,
+				02BD3E61C170D17A00BBECF7D05D2E29 /* SpotifyKit.swift in Sources */,
+				46BA3EB06CAE194C05DEF43C7E5EC034 /* WebCommunications.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7996BD3F3AE916B0213815AA9A995B1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kanna;
-			target = 4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */;
-			targetProxy = 83BD4272ED5B0E2C6345D63DA895C7AB /* PBXContainerItemProxy */;
-		};
-		BAD421F346E5FBFA6466A8C7A33EF711 /* PBXTargetDependency */ = {
+		30FE8352B83734D5F04C7DF1E29282C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = CBCB9A517A1FB4F5A09A873513C37E35 /* PBXContainerItemProxy */;
+			targetProxy = 7DD2322357325E2507909AD82A9042D5 /* PBXContainerItemProxy */;
+		};
+		4D7F8F6E3FABBD418B690DBC62DBB9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpotifyKit;
+			target = AA041B83E56244994F42033E3E13AB07 /* SpotifyKit */;
+			targetProxy = 275D520F6BCD12A1BEEEDEA140D86D39 /* PBXContainerItemProxy */;
+		};
+		C40B9729366C077B85607CAE9D67A51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = 4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */;
+			targetProxy = E04F53102D86F141F35FE9CAE437E6C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2EDC762EC9A99B50116EAE79CD2CFA9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 613B8AC8DCB6B742908403C35BF942A6 /* Pods-WikiMusic.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WikiMusic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WikiMusic/Pods-WikiMusic.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WikiMusic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6CD2CF3CB56F8D2390B8CD744515AD17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 936CEF52055ACEBD05E9653DAEC8927B /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -570,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -579,9 +619,143 @@
 			};
 			name = Release;
 		};
+		250A2BE3291FCC2BC3126B25B2402364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613B8AC8DCB6B742908403C35BF942A6 /* Pods-WikiMusic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WikiMusic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WikiMusic/Pods-WikiMusic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WikiMusic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CD2CF3CB56F8D2390B8CD744515AD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4A6137427D457C9E672E5AC57940ED /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74C4FAA93405D4EE3FABF5AE1E231D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A7A8ABDE1E04699E40B1EF411BCB36 /* Pods-WikiMusic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WikiMusic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WikiMusic/Pods-WikiMusic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WikiMusic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75A02EEB6B7DD0D0F3E2D7C0F83A048E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEAAEE2A57EA25C92F2D74DD0477B1E6 /* SpotifyKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifyKit/SpotifyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpotifyKit/SpotifyKit.modulemap";
+				PRODUCT_NAME = SpotifyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		83546FAFF70BA3FBA603C769F2CEA677 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6605B213C12CDB06209DF36ADCB4B85C /* Kanna.xcconfig */;
+			baseConfigurationReference = DC357E77061F71D921A19ABC3B533DA0 /* Kanna.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -613,7 +787,7 @@
 		};
 		972BD31D68F98035DE59A64D32AC1F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 936CEF52055ACEBD05E9653DAEC8927B /* Alamofire.xcconfig */;
+			baseConfigurationReference = 4C4A6137427D457C9E672E5AC57940ED /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,42 +816,7 @@
 			};
 			name = Debug;
 		};
-		AA3798B44B46452921BFCD144608E8A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A7A8ABDE1E04699E40B1EF411BCB36 /* Pods-WikiMusic.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WikiMusic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WikiMusic/Pods-WikiMusic.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WikiMusic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -726,7 +865,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -739,7 +878,7 @@
 		};
 		FCBC025E21D9F91653A0A5B8C52F7719 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6605B213C12CDB06209DF36ADCB4B85C /* Kanna.xcconfig */;
+			baseConfigurationReference = DC357E77061F71D921A19ABC3B533DA0 /* Kanna.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -768,6 +907,37 @@
 			};
 			name = Debug;
 		};
+		FEC8DCCF1A036F5B64C8EA5CE3F5804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEAAEE2A57EA25C92F2D74DD0477B1E6 /* SpotifyKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifyKit/SpotifyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpotifyKit/SpotifyKit.modulemap";
+				PRODUCT_NAME = SpotifyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -783,8 +953,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
-				6F9224530522DD3C735EC96CF142642E /* Release */,
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -798,11 +968,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6C5648FB44B939BB44C53BB15D39E4A /* Build configuration list for PBXNativeTarget "Pods-WikiMusic" */ = {
+		8B2580886F1C6FC7C8959E4EE8E78215 /* Build configuration list for PBXNativeTarget "SpotifyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EDC762EC9A99B50116EAE79CD2CFA9C /* Debug */,
-				AA3798B44B46452921BFCD144608E8A3 /* Release */,
+				FEC8DCCF1A036F5B64C8EA5CE3F5804E /* Debug */,
+				75A02EEB6B7DD0D0F3E2D7C0F83A048E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A96B2E912F4F42B31BB7D77B490408 /* Build configuration list for PBXNativeTarget "Pods-WikiMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250A2BE3291FCC2BC3126B25B2402364 /* Debug */,
+				74C4FAA93405D4EE3FABF5AE1E231D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

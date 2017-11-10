@@ -8,6 +8,19 @@
 
 import UIKit
 import UserNotifications
+import SpotifyKit
+// MARK: SpotifyKit initialization
+
+// The Spotify developer application object
+// Fill this with the data from the app you've set up on Spotify developer page
+fileprivate let application = SpotifyManager.SpotifyDeveloperApplication(
+    clientId:     "3c13957ca82a45158ad7854aef9778e4",
+    clientSecret: "77f7e2109e0340a384d5745df2043d66",
+    redirectUri:  "swiftifyios://callback"
+)
+
+// The SpotifyKit helper object that will allow you to perform the queries
+let spotifyManager = SpotifyManager(with: application)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
