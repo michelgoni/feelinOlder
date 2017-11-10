@@ -33,7 +33,7 @@ class LocalCoreDataService {
         }
     }
     
-    func getAlbums(withYear: String, andMonth: String) -> [Album]? {
+    func getAlbums(withYear: String, andMonth: String) -> Album? {
         
         let context = stack.persistentContainer.viewContext
         let request : NSFetchRequest<AlbumManaged> = AlbumManaged.fetchRequest()
@@ -42,16 +42,10 @@ class LocalCoreDataService {
         
         do {
             let fetcheAlbums = try context.fetch(request)
-            
-            var albums =  [Album]()
-            for managedAlbum in fetcheAlbums {
-                
-                if managedAlbum.mappedAlbum().day != "?" {
-                    
-                    albums.append(managedAlbum.mappedAlbum())
-                }
-            }
-            return albums
+            var album =  Album()
+            album = (fetcheAlbums.first?.mappedAlbum())!
+
+            return album
             
         }
         catch {

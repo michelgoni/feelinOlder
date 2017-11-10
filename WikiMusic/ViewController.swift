@@ -22,30 +22,24 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         // First thing: scrape records year by year
         //self.scrapeYearByYearRecords()
      
-        //second thing: insert local notifications
-       //self.scheduleLocal()
-        
+        //second thing: insert local notifications one for differente year
+        for _ in 1...64 {
+            self.scheduleLocal()
+        }
     }
     
 
     func scheduleLocal() {
         
-        let actualMonthAndrandomYear = (month: DateFormatter().stringMonthFormatter().string(from: Date()), randomYear: Array(1992...1992).randomItem())
+        let actualMonthAndrandomYear = (month: DateFormatter().stringMonthFormatter().string(from: Date()), randomYear: Array(1990...2017).randomItem())
         
-        //get albums using random year and the actual month
-        
-        guard let albums = self.dataProvider.getAlbums(withYear: actualMonthAndrandomYear.month, andMonth: String(describing: actualMonthAndrandomYear.randomYear!)) else {
+        guard let album = self.dataProvider.getAlbums(withYear: actualMonthAndrandomYear.month, andMonth: String(describing: actualMonthAndrandomYear.randomYear!)) else {
             return
         }
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MMMM/d/yyyy"
-        
-        
-        for album in albums {
-            
-            self.scheduleNotification(at: dateFormatter.date(from: album.dateforNotifications!)!, withAlbum: album)
-            
-        }
+        self.scheduleNotification(at: dateFormatter.date(from: album.dateforNotifications!)!, withAlbum: album)
+
     }
     
     func scheduleNotification(at date: Date, withAlbum album: Album) {
