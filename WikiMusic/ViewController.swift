@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import Kanna
 import UserNotifications
+import SpotifyKit
 
 class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     
@@ -21,11 +22,15 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         
         // First thing: scrape records year by year
         //self.scrapeYearByYearRecords()
+        
+        // Authorize our app for the Spotify account if there is no token
+        // This opens a browser window from which the user can authenticate into his account
+        spotifyManager.authorize()
      
         //second thing: insert local notifications one for differente year
-        for _ in 1...64 {
-            self.scheduleLocal()
-        }
+//        for _ in 1...64 {
+//            self.scheduleLocal()
+//        }
     }
     
 

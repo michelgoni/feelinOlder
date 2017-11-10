@@ -11,12 +11,10 @@ import UserNotifications
 import SpotifyKit
 // MARK: SpotifyKit initialization
 
-// The Spotify developer application object
-// Fill this with the data from the app you've set up on Spotify developer page
 fileprivate let application = SpotifyManager.SpotifyDeveloperApplication(
-    clientId:     "3c13957ca82a45158ad7854aef9778e4",
-    clientSecret: "77f7e2109e0340a384d5745df2043d66",
-    redirectUri:  "swiftifyios://callback"
+    clientId:     "9915a1aed4b64fa08585c4f5fa1aee91",
+    clientSecret: "2fc28a29fb994c5e99749f4d139586a7",
+    redirectUri:  "AlbumRetriever://callback"
 )
 
 // The SpotifyKit helper object that will allow you to perform the queries
@@ -42,6 +40,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 print("Notification access denied")
             }
         }
+        
+        return true
+    }
+    func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
+        spotifyManager.saveToken(from: url)
         
         return true
     }
